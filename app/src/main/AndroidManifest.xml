@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cu.gastosmerchant1">
+    <!-- Permission for camera -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permission to vibrate -->
+    <uses-feature android:name="android.hardware.camera"
+       />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="q"
+        android:label="Gastos Provider"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activity.OTP.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SimpleOnboard"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EnterFullNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.OnBoardingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <activity
+            android:name=".registration.new_flow.ProfileDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.pay_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.membership.Bill_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.membership.membership"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.membership.membership_status"
+            android:exported="false" />
+        <activity
+            android:name=".registration.onboarded"
+            android:exported="false" />
+        <activity
+            android:name=".settings.payment_status"
+            android:exported="false" />
+        <activity
+            android:name=".settings.confirmation"
+            android:exported="false" />
+        <activity
+            android:name=".settings.postAds.demo_message"
+            android:exported="false" />
+        <activity
+            android:name=".settings.postAds.ad_payment"
+            android:exported="false" />
+        <activity
+            android:name=".settings.postAds.budget"
+            android:exported="false" />
+        <activity
+            android:name=".settings.postAds.post_audience"
+            android:exported="false" />
+        <activity
+            android:name=".Ad_content"
+            android:exported="false" />
+        <activity
+            android:name=".registration.CashFree_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".wallet.BrandingWallet"
+            android:exported="false" />
+        <activity
+            android:name=".wallet.ProviderWallet"
+            android:exported="false" />
+        <activity
+            android:name=".settings.PrivacyPolicyWeb"
+            android:exported="false" />
+        <activity
+            android:name=".settings.ManageAds"
+            android:exported="false" />
+        <activity
+            android:name=".settings.ReferAndEarn"
+            android:exported="false" />
+        <activity
+            android:name=".settings.ManageDesign"
+            android:exported="false" />
+        <activity
+            android:name=".settings.RequestDesign"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.GenerateQrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".settings.PostAds"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentStatus"
+            android:exported="false" />
+        <activity
+            android:name=".selectPackage.selectPackage"
+            android:exported="false" />
+        <activity
+            android:name=".registration.paymentActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat"
+            tools:replace="android:theme"
+            />
+        -->
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.RegistrationPayActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".registration.UserAgreement"
+            android:exported="false" />
+        <activity android:name=".settings.ProviderWallet" />
+        <activity android:name=".registration.RegistrationPaymentActivity" />
+        <activity
+            android:name=".upiparse.QRScannerActivity"
+            android:exported="true" />
+        <activity android:name=".pymtdialog" />
+        <activity android:name=".Dashboard.pymt_info" />
+        <activity android:name=".recvd_paymt" />
+        <activity android:name=".Settings" />
+        <activity android:name=".shop_setting" />
+        <activity android:name=".settings.acc_settings" />
+        <activity android:name=".help_centre" />
+        <activity android:name=".report_problem" />
+        <activity android:name=".settings.TermsOfService" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".about_us" />
+        <activity
+            android:name=".Dashboard.Home"
+            android:exported="false" />
+        <activity
+            android:name=".UpiPaymentUtils"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".registration.AddQR"
+            android:exported="false" />
+        <activity
+            android:name=".registration.Commission"
+            android:exported="false" />
+        <activity
+            android:name=".registration.BasicDetails"
+            android:exported="false" />
+        <activity
+            android:name=".registration.setpin"
+            android:exported="false" />
+        <activity
+            android:name=".registration.PhoneAuthentication"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.Getotp_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

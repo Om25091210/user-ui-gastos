@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:scrollbars="none"
+                android:fillViewport="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="@font/plusjakartadisplaybold"
+                        android:text="@string/enterMobNo"
+                        android:textColor="@color/gastos_Black"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/plusjakartadisplaymedium"
+                        android:text="@string/enterMob"
+                        android:textColor="@color/gastos_Grey"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView"
+                        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/edittextbacky"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.261"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:id="@+id/imageView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:src="@drawable/flag_num"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:fontFamily="@font/plusjakartatextregular"
+                                android:text="+91"
+                                android:textSize="15sp"
+                                app:layout_constraintBottom_toBottomOf="@+id/imageView"
+                                app:layout_constraintStart_toEndOf="@+id/imageView"
+                                app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:id="@+id/imageView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="15dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                                app:layout_constraintStart_toEndOf="@+id/textView3"
+                                app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+                            <EditText
+                                android:paddingStart="5dp"
+                                android:singleLine="true"
+                                android:maxLength="10"
+                                android:gravity="center_vertical"
+                                android:layout_marginLeft="2dp"
+                                android:layout_marginRight="2dp"
+                                android:paddingBottom="5dp"
+                                android:id="@+id/edtPhoneNo"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/editedittext"
+                                android:cursorVisible="true"
+                                android:focusable="true"
+                                android:inputType="number"
+                                android:focusableInTouchMode="true"
+                                android:fontFamily="@font/plusjakartatextregular"
+                                android:hint="xxx-xxxx-xxx"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.063"
+                                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:gravity="bottom"
+                        android:layout_height="match_parent">
+
+                        <!--<androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                            <LinearLayout
+                                android:layout_marginTop="50dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="7"
+                                android:orientation="vertical"
+                                android:weightSum="4"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <Button
+
+                                        android:id="@+id/btnOne"
+                                        android:background="@android:color/transparent"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="1"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+                                        android:id="@+id/btnTwo"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="2"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:id="@+id/btnThree"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:background="@android:color/transparent"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="3"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <Button
+                                        android:id="@+id/btnFour"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:background="@android:color/transparent"
+
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="4"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnFive"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="5"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnSix"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="6"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnSeven"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="7"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnEight"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="8"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnNine"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="9"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal"
+                                    android:weightSum="3">
+
+                                    <Button
+                                        android:id="@+id/btnAterisk"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="#ECEFF1"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="*"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp"
+                                        android:visibility="invisible" />
+
+                                    <Button
+                                        android:background="@android:color/transparent"
+
+                                        android:id="@+id/btnZero"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="1dp"
+                                        android:layout_weight="1"
+                                        android:backgroundTint="@color/white"
+                                        android:onClick="buttonClickEvent"
+                                        android:text="0"
+                                        android:textColor="@color/black"
+                                        android:textSize="30sp" />
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1">
+
+                                        <ImageView
+                                            android:id="@+id/btndel"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/cancel"
+                                            android:onClick="buttonClickEvent"
+                                            android:textColor="@color/black"
+                                            android:textSize="30sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent">
+
+                                        </ImageView>
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2" />
+
+
+                            </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+                        <TextView
+                            android:id="@+id/nextContinue"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            app:cornerRadius="10dp"
+                            android:text="@string/conti"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:background="@drawable/bg_grey_continue" />
+
+                        <com.google.android.material.progressindicator.CircularProgressIndicator
+                            android:id="@+id/loader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:elevation="100dp"
+                            android:indeterminate="true"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            app:indicatorColor="@color/white"
+                            app:indicatorDirectionCircular="clockwise"
+                            app:indicatorSize="40dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:trackColor="@color/green"
+                            app:trackThickness="6dp"/>
+                        <TextView
+                            android:gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="center"
+                            android:text="By giving your information, you agree to our"
+                            android:fontFamily="@font/plusjakartadisplaymedium"
+                            android:textColor="@color/gastos_Greyc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <LinearLayout
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:text="Terms &amp; Conditions"
+                                android:fontFamily="@font/plusjakartadisplaymedium"
+                                android:textColor="@color/green_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"
+                                android:text="and"
+                                android:fontFamily="@font/plusjakartadisplaymedium"
+                                android:textColor="@color/gastos_Greyc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:layout_gravity="center"
+                                android:text="Privacy Policy."
+                                android:fontFamily="@font/plusjakartadisplaymedium"
+                                android:textColor="@color/green_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </ScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

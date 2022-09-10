@@ -1,0 +1,173 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.cu.gastosmerchant1"
+        minSdkVersion 24
+        multiDexEnabled true
+        targetSdkVersion 30
+        versionCode 41
+        versionName "2.1.19"
+       
+
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures{
+        viewBinding true
+        dataBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-firestore:24.0.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0@aar'
+    implementation 'com.google.zxing:core:3.4.0'
+//    implementation files('C:\\Users\\Arpit Garg\\Downloads\\PaytmChecksum.jar')
+    def camerax_version = "1.1.0-alpha09"
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    implementation "androidx.camera:camera-view:1.0.0-alpha29"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation "com.android.support:cardview-v7"
+    implementation "com.karumi:dexter:5.0.0"
+    implementation 'com.github.yalantis:ucrop:2.2.6'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.firebaseui:firebase-ui-database:7.1.1'
+    implementation 'com.google.android.gms:play-services-maps:18.0.2'
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation 'androidx.browser:browser:1.4.0'
+    implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.5'
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+    implementation 'com.google.android.material:material:1.6.0-alpha01'
+
+    //qr code scanner
+    implementation 'com.google.mlkit:barcode-scanning:17.0.1'
+
+    implementation "androidx.camera:camera-camera2:1.1.0-alpha10"
+    implementation "androidx.camera:camera-lifecycle:1.1.0-alpha10"
+    implementation "androidx.camera:camera-view:1.0.0-alpha30"
+
+
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    // Easy UPI Payment library
+    implementation 'dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3'
+
+
+    //Razorpay
+    implementation 'com.razorpay:checkout:1.6.12'
+
+// TabIndicator
+    implementation("com.tbuonomo:dotsindicator:4.3")
+
+
+   //implementation 'com.android.support:design:28.0.0-alpha1'
+//    implementation('com.paytm:pgplussdk:1.2.3') {
+//        transitive = true;
+//    }
+
+//    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.6'
+
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.6'
+
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    //edittext
+    implementation 'com.github.simformsolutions:SSCustomEditTextOutLineBorder:1.0.15'
+    //Scalable size unit(support for different size screens)
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    //pin view
+    implementation 'io.github.chaosleung:pinview:1.4.4'
+    //cashfree
+    implementation'com.cashfree.pg:android-sdk:1.7.21'
+    implementation 'com.cashfree.pg:api:1.0.0'
+    implementation 'com.cashfree.pg:core:1.0.0'
+    implementation 'com.cashfree.pg:ui:1.0.0'
+
+    implementation 'com.cashfree.pg:network:1.0.0'
+    implementation 'com.cashfree.pg:base:1.0.0'
+    implementation 'com.cashfree.pg:analytics:1.0.0'
+    implementation 'com.cashfree.pg:image-caching:1.0.0'
+
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+
+    implementation 'com.android.volley:volley:1.2.1'
+    //surround card view
+    implementation "com.furkanakdemir:surroundcardview:1.0.6"
+    //Lottie
+    implementation "com.airbnb.android:lottie:3.7.0"
+
+    //git animation
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.22'
+
+    implementation 'com.google.android.gms:play-services-safetynet:18.0.1'
+    implementation 'androidx.browser:browser:1.3.0'
+    //Rounded ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    //RangeSeekbar
+    implementation 'com.github.sephiroth74:RangeSeekBar:1.1.0'
+    //valuestowords
+    implementation 'pl.allegro.finance:tradukisto:1.10.6'
+
+    implementation 'com.google.android.material:material:1.0.0-alpha1'
+
+
+    //fresco
+    implementation('com.facebook.fresco:fresco:2.6.0') {
+        exclude group: 'com.facebook.soloader', module: 'soloader'
+        exclude group: 'com.facebook.fresco', module: 'soloader'
+        exclude group: 'com.facebook.fresco', module: 'nativeimagefilters'
+        exclude group: 'com.facebook.fresco', module: 'nativeimagetranscoder'
+        exclude group: 'com.facebook.fresco', module: 'memory-type-native'
+        exclude group: 'com.facebook.fresco', module: 'imagepipeline-native'
+    }
+    // https://mavenlibs.com/maven/dependency/com.facebook.fresco/nativeimagetranscoder
+    implementation 'com.facebook.fresco:nativeimagetranscoder:2.6.0'
+    // For WebP support, including animated WebP
+    implementation 'com.facebook.fresco:animated-webp:2.6.0'
+    implementation 'com.facebook.fresco:webpsupport:2.6.0'
+    //rounded_imageview
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    //imagecrop
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+    //generate qr
+    implementation "androidmads.library.qrgenearator:QRGenearator:1.0.3"
+    //dependencies
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.1'
+}

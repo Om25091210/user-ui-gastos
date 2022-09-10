@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="darkBlack">#282828</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dots_selected_color">#344E41</color>
+    <color name="dots_unselected_color">#588157</color>
+    <color name="button_background">#588157</color>
+    <color name="textcolor">#0E3746</color>
+    <color name="textcolor2">#004445</color>
+    <color name="grey_600">#757575</color>
+    <color name="colorPrimary">#5770f3</color>
+    <color name="colorPrimaryDark">#5770f3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorEditToolBar">#1ae555</color>
+    <color name="gastos">#2D796D</color>
+    <color name="next_low">#942D796D</color>
+    <color name="gastos_Grey">#909090</color>
+    <color name="gastos_Greyc">#C8C8C8</color>
+    <color name="gastos_Black">#212121</color>
+    <color name="green">#10B981</color>
+    <color name="phone_pay">#5F259F</color>
+    <color name="bharat_pay">#00AECA</color>
+    <color name="bhim_pay">#27803B</color>
+    <color name="airtel_pay">#E20010</color>
+    <color name="google_pay">#4285F4</color>
+    <color name="paytm">#03A9F4</color>
+    <color name="amazon_pay">#FF9800</color>
+
+    <color name="lightGreen">#10B981</color>
+    <color name="greyAllSet">#A3A3A3</color>
+    <color name="greyDark">#909090</color>
+    <color name="bE">#8E8E8E</color>
+    <color name="darkGreen">#2D796D</color>
+    <color name="barcode">#D7EDFF</color>
+    <color name="nBarcode">#FFEEEA</color>
+    <color name="my_pro">#E9E7FF</color>
+    <color name="wallet">#E2FFF7</color>
+    <color name="my_dis">#FFE5E5</color>
+    <color name="setting">#FFF4D4</color>
+    <color name="pay_received">#E8FFD7</color>
+    <color name="text">#626262</color>
+    <color name="strokeColor">#DCE2EF</color>
+    <color name="avail">#ADADAD</color>
+    <color name="gr">#10B981</color>
+    <color name="transparent">#00000000</color>
+    <color name="Gray">#202832</color>
+    <color name="fadeBlack">#393939</color>
+    <color name="red">#EB5757</color>
+    <color name="cornor">#DCE2EF</color>
+
+
+    <color name="light_very_grey">#E6E5E5</color>
+    <color name="gastos_green">#004445</color>
+    <color name="green_text">#2D796D</color>
+    <color name="bg_linear_wallet">#99FFFFFF</color>
+
+    <color name="grey_txt">#595959</color>
+    <color name="places_white">#E5E5E5</color>
+
+
+</resources>

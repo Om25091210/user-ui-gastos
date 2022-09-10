@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../.gradle/caches/transforms-2/files-2.1/7e86f971b1e46468affb79f4d55551b0/appcompat-1.4.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.18614130434782608" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_active.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_airtel.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_amazon.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_bharatpay.xml" value="0.2295" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_bhim.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_bill_amt.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_bottom_bg.xml" value="0.205" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_card.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_content_stroke.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_content_stroke_inactive.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_dark_green_curve.xml" value="0.2295" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_dialog_layout.xml" value="0.205" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_discount_card.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_discount_card_1.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_discount_card_2.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_down.xml" value="0.219" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_edt_text.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_get_started.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_google.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_grey_continue.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_home_linear.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_inactive.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_level_txt.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_next.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_next_inactive.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_paytm.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_phone_pay.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_primary_stroke.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_stroke.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/bg_stroke_paymts.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/cancel.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/circle_payments_bg.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/delete.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/delete_ic.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/dim_bg.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/editedittext.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/edittextbacky.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_arrow_right.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_category.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_copy.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_cross.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_delete.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_delivery.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_done.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_dp_plus.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_ellipse.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_ellipse2.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_ellipse3.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_ellipse4.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_email.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_flag.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_forward.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_gallery.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_hashtag.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_iamge_holder.xml" value="0.205" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_image_holder.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_inactive.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_info.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_location.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_lock.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_logo_full_white.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_logout.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_menu_board.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_menu_vertical.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_notification.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_password.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_payment_done.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_people.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_phone.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_plus.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_profile1.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_share.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_shop.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_sms.xml" value="0.1925" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_ticket_discount.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_upload.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_user.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_user_octagon.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_user_octagon2.xml" value="0.1005" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_user_square.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/ic_wallet.xml" value="0.1975" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/mem_bg.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/profile_editext_shape.xml" value="0.205" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/qr_code_scanner.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/save_bg.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/drawable/stroke_select.xml" value="0.1875" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/acc_profile_details.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_about_us.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_acc_settings.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_ad_content.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_ad_payment.xml" value="0.15942028985507245" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_add_qr.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_basic_details.xml" value="0.1490036231884058" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_bill_payment.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_branding_wallet.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_budget.xml" value="0.1503623188405797" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_confirmation.xml" value="0.14" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_demo_message.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_enter_full_name.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_generate_qr.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_getotp.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_main.xml" value="0.1490036231884058" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_manage_design.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_membership.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_membership_status.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_on_boarding.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_onboarded.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_otpactivity.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_pay_screen.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_payment.xml" value="0.19791666666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_payment_status.xml" value="0.1490036231884058" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_payment_status2.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_phone_authentication.xml" value="0.19791666666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_post_ads.xml" value="0.1490036231884058" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_post_audience.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_profile_details.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_provider_wallet.xml" value="0.1" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_provider_wallet2.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_registration_pay.xml" value="0.19791666666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_registration_payment.xml" value="0.19791666666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_settings.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_shop_setting.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_simple_onboard.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_user_agreement.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/activity_view_qr.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/add_discount.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/alertdialog_setprimary.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/bg_bottom_dialog.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/bottomsheet_detail.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/card_view_my_discount.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/catalogue.xml" value="0.16" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/dialog_primary.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/dialog_report.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/discount.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_acc_profile.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_add__discount.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_add__q_r.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_blank.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_catalogue.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_catalogue2.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_onboarded.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_pos_qr.xml" value="0.12" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_received_payments.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_select_services.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_set__discount.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_settings.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/fragment_user_agreement.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/generate_qr.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/home_temp.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/hpdialog.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/item_pager.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/layout_camera.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/layout_dialog.xml" value="0.1490036231884058" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/layout_payments.xml" value="0.34022750775594623" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/loading.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/loading_gastos.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/membership_status.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/my_design.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/my_discount.xml" value="0.16" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/new_add_discount.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/new_home.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/payment_successful.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/privacy_policy.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/profile_details.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/provider_wallet.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/qr_codes.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/qr_layout.xml" value="0.33" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/qrview.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/received_payments.xml" value="0.2" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/select_banner_design.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/select_content.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/select_package.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/select_promotion.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/select_services.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/setting_item_layout.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/settings.xml" value="0.22" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/single_row_image.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/spinner_text.xml" value="0.21197916666666666" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/terms_of_service.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/textlayout.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/unedited_home.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/unedited_profile_details.xml" value="0.1933876811594203" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/updated_home.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/user_agreement.xml" value="0.25" />
+        <entry key="..\:/21.7.21/gastos/new gastos/app/src/main/res/layout/view_qr.xml" value="0.16" />
+        <entry key="..\:/GASTOS_PROVIDER_APP(2nd JUNE)/Gastos_App_Provider/app/src/main/res/layout/activity_onboarded.xml" value="0.2" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/drawable/bg_dialog_layout.xml" value="0.226" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/drawable/ic_gallery.xml" value="0.226" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/drawable/ic_shop.xml" value="0.226" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/drawable/onboradbacky.xml" value="0.226" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/activity_login.xml" value="0.22780797101449277" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/activity_main2.xml" value="0.22780797101449277" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/activity_on_boarding.xml" value="0.22780797101449277" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/activity_profile_details.xml" value="0.22780797101449277" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/layout_camera.xml" value="0.264" />
+        <entry key="..\:/GastosProviderApp(280822)/Gastos_App_Provider/app/src/main/res/layout/single_row_image.xml" value="0.22780797101449277" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2203125" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/drawable/primary.xml" value="0.2203125" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_about_us.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_acc_settings.xml" value="0.22" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_add_qr.xml" value="0.25" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_basic_details.xml" value="0.18" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_commission.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_contact_us.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_getotp.xml" value="0.22" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_help_centre.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_legal.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_main.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_phone_authentication.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_pymt_info.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_pymtdialog.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.1" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_recvd_paymt.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_report_problem.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_setpin.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_settings.xml" value="0.16259057971014493" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/activity_shop_setting.xml" value="0.21" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/discount_item.xml" value="0.25" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/qr_item.xml" value="0.33" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/qrview.xml" value="0.14583333333333334" />
+        <entry key="..\:/Gastos_App_Provider/app/src/main/res/layout/shop_img_item.xml" value="0.5" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/drawable-hdpi/arrow_back_24.xml" value="0.1255" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/drawable-hdpi/ic_indian_rupee_symbol.xml" value="0.1255" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_add_qr.xml" value="0.2" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_basic_details.xml" value="0.136" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_post_ads.xml" value="0.2" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_promotion.xml" value="0.152" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_registration_pay.xml" value="0.176" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_request_design.xml" value="0.2358695652173913" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_settings.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_shop_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/activity_user_agreement.xml" value="0.1" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/alertdialog_setprimary.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/dialog_payment_info.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/Arpit Garg/AndroidStudioProjects/2/Gastos_App_Provider/app/src/main/res/layout/qr_item.xml" value="0.152" />
+        <entry key="..\:/Users/Himanshu/.gradle/caches/transforms-3/cb8e430002ce25b73d1bc88b81d48c8b/transformed/appcompat-1.4.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/drawable-anydpi/backy.xml" value="0.1265" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/drawable/border_rect.xml" value="0.1265" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/drawable/ic_back.xml" value="0.2075" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/drawable/ic_receipt.xml" value="0.2075" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/drawable/otp_verification_box.xml" value="0.1265" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/font/lato.xml" value="0.14539473684210527" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_add_qr.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_basic_details.xml" value="0.22" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_commission.xml" value="0.18" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_getotp.xml" value="0.21" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_payment.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_payment_web.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_phone_authentication.xml" value="0.14" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_pymt_info.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_pymtdialog.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_registration_pay.xml" value="0.17" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_registration_payment.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_request_design.xml" value="0.16" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_setpin.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/activity_user_agreement.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/alertdialog_setprimary.xml" value="0.16" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/dialog_payment_info.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/dialog_picture_capture.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/hpdialog.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/jj.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/qr_item.xml" value="0.2" />
+        <entry key="..\:/Users/Himanshu/Videos/Gastos/Gastos_App_Provider/app/src/main/res/layout/textlayout.xml" value="0.12631578947368421" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/drawable/border_react_2.xml" value="0.2" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/drawable/border_rect.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/drawable/ic_mockup.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_about_us.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_acc_settings.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_add_qr.xml" value="0.2" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_basic_details.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_commission.xml" value="0.2" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_getotp.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_help_centre.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_home.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_phone_authentication.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_pymt_info.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_pymtdialog.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.33" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_recvd_paymt.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_registration_pay.xml" value="0.3922462941847206" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_registration_payment.xml" value="0.1940928270042194" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_report_problem.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_setpin.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_settings.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_shop_setting.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/activity_user_agreement.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/alertdialog_setprimary.xml" value="0.1" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/dialog_picture_capture.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/discount_item.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/Gastos_App_Provider/app/src/main/res/layout/layout_item_commision.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/drawable/border_rect.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/drawable/primary.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/drawable/qr_primary.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/font/roboto_bold.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_about_us.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_acc_settings.xml" value="0.21" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_add_qr.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_basic_details.xml" value="0.25" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_commission.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_getotp.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_help_centre.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_home.xml" value="0.16" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_legal.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_phone_authentication.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_pymt_info.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.25" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_qrscanner.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_report_problem.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_setpin.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/activity_shop_setting.xml" value="0.22" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/qr.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/qr_item.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/qrview.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/baps/AndroidStudioProjects/gastos_provider_new-master/app/src/main/res/layout/user_rv_item.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/about_gastos.xml" value="0.2" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/about_us.xml" value="0.17595307917888564" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/acc_profile_details.xml" value="0.152" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_about_us.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_acc_settings.xml" value="0.176" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_branding_wallet.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_budget.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_help_centre.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_provider_wallet.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_provider_wallet2.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_q_r_scanner.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_recvd_paymt.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_refer_and_earn.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_settings.xml" value="0.72" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_shop_setting.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_simple_onboard.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/activity_terms_of_service.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/fragment_about_us.xml" value="0.2359375" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/fragment_greivance.xml" value="0.2359375" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/fragment_pos_qr.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/fragment_privacy_policy.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/fragment_terms_of_service.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/generate_qr.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/grevieance_policy.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/help_and_support.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/new_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/privacy_policy.xml" value="0.16551724137931034" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/qr_codes.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/qrview.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/refer_and_earn.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/scanner.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/select_banner_design.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/setting_card_layour.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/setting_item_layout.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/settings.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/temps.xml" value="0.25" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/terms_of_service.xml" value="0.17595307917888564" />
+        <entry key="..\:/Users/nikhi/AndroidStudioProjects/Gastos Provoider App/app/src/main/res/layout/updated_home.xml" value="0.12158054711246201" />
+        <entry key="app/src/main/res/drawable-anydpi/ic_checked.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/amount_back.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/bg_card.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/box_rect.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/btn_bg.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/button_back.xml" value="0.3140625" />
+        <entry key="app/src/main/res/drawable/cancel_backgrounf.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/dotted.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/green_gradient.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/ic_amazon_upi.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_bhim_upi.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_card_collect.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_google_upi.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_mobikwik_upi.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_paytm.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_phonepe_upi.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_qr_code_svgrepo_com_1_generate_qr.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/logout_back.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/red_gradient.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/set_primary_back.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable/sheet_background.xml" value="0.182" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_acc_settings.xml" value="0.2475372314453125" />
+        <entry key="app/src/main/res/layout/activity_add_qr.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/activity_basic_details.xml" value="0.20626373291015626" />
+        <entry key="app/src/main/res/layout/activity_cash_free.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_commission.xml" value="0.21938934326171874" />
+        <entry key="app/src/main/res/layout/activity_generate_qr.xml" value="0.24055480957031247" />
+        <entry key="app/src/main/res/layout/activity_getotp.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.15975341796875026" />
+        <entry key="app/src/main/res/layout/activity_legal.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.22437438964843753" />
+        <entry key="app/src/main/res/layout/activity_payment_status.xml" value="0.1919561767578125" />
+        <entry key="app/src/main/res/layout/activity_payment_web.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_promotion.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/activity_pymt_info.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_pymtdialog.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_q_r_scanner.xml" value="0.2504528985507246" />
+        <entry key="app/src/main/res/layout/activity_recvd_paymt.xml" value="0.18614130434782608" />
+        <entry key="app/src/main/res/layout/activity_registration_pay.xml" value="0.17813262939453126" />
+        <entry key="app/src/main/res/layout/activity_registration_payment.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_request_design.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_shop_setting.xml" value="0.3710052490234375" />
+        <entry key="app/src/main/res/layout/alertdialog_setprimary.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/bottomsheet_dialog.xml" value="0.21391754150390616" />
+        <entry key="app/src/main/res/layout/dialog_payment_info.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/dialog_picture_capture.xml" value="0.23333333333333334" />
+        <entry key="app/src/main/res/layout/dotted.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/layout_dialog.xml" value="0.17889492753623187" />
+        <entry key="app/src/main/res/layout/logout_alert_dialog.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/qr_item.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/qrview.xml" value="0.18885869565217392" />
+        <entry key="app/src/main/res/layout/temporary.xml" value="0.19610507246376813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

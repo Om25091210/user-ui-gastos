@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="20dp"
+    android:paddingEnd="20dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/image" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/bg_next_inactive"
+        android:fontFamily="@font/futurapt_medium"
+        android:gravity="center"
+        android:paddingStart="25dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="10dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:gravity="start"
+        android:text="3/5"
+        android:textColor="#10B981"
+        android:textFontWeight="700"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3"
+        tools:targetApi="p" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:gravity="start"
+        android:text="Step"
+        android:textColor="#909090"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="start"
+        android:text="My Discounts"
+        android:textColor="#212121"
+        android:textFontWeight="700"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:text="List of discounts provided to customers."
+        android:textColor="#909090"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/add_dis"
+        app:layout_constraintEnd_toEndOf="@+id/next"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_discount_card"
+                android:paddingStart="15dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/next"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/layer3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_layer_2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_logo"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="@string/gastos"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView22"
+                        app:layout_constraintStart_toEndOf="@+id/imageView22"
+                        app:layout_constraintTop_toTopOf="@+id/imageView22"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/percent3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="20%"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="64sp"
+                        app:layout_constraintStart_toStartOf="@+id/imageView22"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="FLAT\nDISCOUNT"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/percent3"
+                        app:layout_constraintStart_toEndOf="@+id/percent3"
+                        app:layout_constraintTop_toTopOf="@+id/percent3"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:letterSpacing=".1"
+                        android:text="@string/on_any_billed_amount"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/percent3"
+                        app:layout_constraintTop_toBottomOf="@+id/percent3"
+                        tools:ignore="RtlSymmetry" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_discount_card_1"
+                android:paddingStart="15dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/next"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/layout">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/layer53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_layer_2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView252"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_logo"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/textView125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="@string/gastos"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView252"
+                        app:layout_constraintStart_toEndOf="@+id/imageView252"
+                        app:layout_constraintTop_toTopOf="@+id/imageView252"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/percent35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="20%"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="64sp"
+                        app:layout_constraintStart_toStartOf="@+id/imageView252"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView252"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="FLAT\nDISCOUNT"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/percent35"
+                        app:layout_constraintStart_toEndOf="@+id/percent35"
+                        app:layout_constraintTop_toTopOf="@+id/percent35"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:letterSpacing=".1"
+                        android:text="@string/on_any_billed_amount"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/percent35"
+                        app:layout_constraintTop_toBottomOf="@+id/percent35"
+                        tools:ignore="RtlSymmetry" />
+
+
+                    <ImageView
+                        android:id="@+id/del2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:contentDescription="@string/image"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_delete"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/imageView252"
+                        app:tint="@color/red" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_discount_card_2"
+                android:paddingStart="15dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/next"
+                app:layout_constraintStart_toStartOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/layout">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/layer532"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_layer_2"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/imageView2521"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/ic_logo"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/textView1252"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="@string/gastos"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/imageView2521"
+                        app:layout_constraintStart_toEndOf="@+id/imageView2521"
+                        app:layout_constraintTop_toTopOf="@+id/imageView2521"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/percent352"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="20%"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="64sp"
+                        app:layout_constraintStart_toStartOf="@+id/imageView2521"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView2521"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text452"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:text="FLAT\nDISCOUNT"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/percent352"
+                        app:layout_constraintStart_toEndOf="@+id/percent352"
+                        app:layout_constraintTop_toTopOf="@+id/percent352"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/text552"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/plusjakartasansregular"
+                        android:gravity="start"
+                        android:letterSpacing=".1"
+                        android:text="@string/on_any_billed_amount"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintStart_toStartOf="@+id/percent352"
+                        app:layout_constraintTop_toBottomOf="@+id/percent352"
+                        tools:ignore="RtlSymmetry" />
+
+                    <ImageView
+                        android:id="@+id/del3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:contentDescription="@string/image"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_delete"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/imageView2521"
+                        app:tint="@color/red" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_layout"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_discount"
+                android:contentDescription="TODO"
+                android:foregroundGravity="center"
+                android:padding="15dp"
+                android:src="@drawable/ic_ticket_discount"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="center"
+                android:text="No Discounts Yet"
+                android:textColor="#212121"
+                android:textFontWeight="700"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/plusjakartasansregular"
+                android:gravity="center"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Add discount to the store store page to attract more customers!"
+                android:textColor="#B1BCD2"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/add_dis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_dark_green_curve"
+        android:fontFamily="@font/plusjakartasansregular"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Add Discounts"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
